@@ -34,7 +34,7 @@ export const Image = styled.img`
   width: 200px;
   margin-right: 1rem;
   border-radius: 2px;
-`;
+`; 
 
 export const ViewResumeLink = styled.a`
   display: flex;
