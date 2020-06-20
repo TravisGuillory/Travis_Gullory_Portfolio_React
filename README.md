@@ -18,5 +18,5 @@ Deployed Application: https://portfolio-travis-guillory.herokuapp.com/
 
 ![Alt Text](https://github.com/TravisGuillory/Travis_Gullory_Portfolio_React/raw/master/assets/reactPortfolioscreenshot.png)
 
-![Alt Text](https://github.com/TravisGuillory/Travis_Gullory_Portfolio_React/raw/master/assets/reactPortfolio.gif)
+![Alt Text](https://github.com/TravisGuillory/Travis_Gullory_Portfolio_React/raw/master/assets/reactPortfolio.gif.gif)
 
