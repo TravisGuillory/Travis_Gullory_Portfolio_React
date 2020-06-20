@@ -4,7 +4,7 @@ This is the my portfolio repository. please click the link to view the website.
 
 GitHub Repo: https://github.com/TravisGuillory/Travis_Gullory_Portfolio_React.git
 
-
+Deployed Application: https://portfolio-travis-guillory.herokuapp.com/
 
 ## Tecnologies utilized:
 
@@ -16,7 +16,7 @@ GitHub Repo: https://github.com/TravisGuillory/Travis_Gullory_Portfolio_React.gi
 * npm styled components
 * npm axios
 
+![Alt Text](https://github.com/TravisGuillory/Travis_Gullory_Portfolio_React/raw/master/assets/reactPortfolioscreenshot.png)
 
-
-
+![Alt Text](https://github.com/TravisGuillory/Travis_Gullory_Portfolio_React/raw/master/assets/reactPortfolioscreenshot.gif)
 
