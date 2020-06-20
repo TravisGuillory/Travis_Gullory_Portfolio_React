@@ -28,13 +28,13 @@ const UserHeader = ({ user }) => {
           <p><strong>{user.basics.headline}</strong></p>
           <p>
             Email:{' '}
-            <a href={'mailto: '+ user.basics.email} target="_blank" >
+            <a href={'mailto: '+ user.basics.email} target="_blank"rel="noopener noreferrer" >
               {user.basics.email}
             </a>
           </p>
           {user.basics.profiles.map((e, i) =>(
             <p key={i}>{e.network + ': ' }
-              <a href={e.url} target='_blank' >
+              <a href={e.url} target='_blank' rel="noopener noreferrer" >
                 {e.url}
               </a>
             </p>
