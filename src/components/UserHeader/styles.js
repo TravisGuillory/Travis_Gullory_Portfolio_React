@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import { black, blue, coolGray } from '@carbon/colors';
+
 
 export const HeaderContainer = styled.div`
     display:flex;
@@ -14,6 +16,19 @@ export const Header = styled.div`
     flex-direction: column;
   }
 `;
+
+export const LinksContainer = styled.span`
+display: inline-block;
+margin-top: 0.5rem;
+
+margin-bottom: 0.75rem;
+padding: 0.5rem 0.5rem;
+background-color: ${coolGray[50]};
+color: ${blue[90]};
+border: 3px solid ${blue[60]};S
+border-radius: 10px;
+font-weight: bold;
+`; 
 
 export const Image = styled.img`
   width: 200px;
@@ -32,7 +47,7 @@ export const ViewResumeLink = styled.a`
   background-color: rgba(46, 204, 64, 0.3);
   transition: background-color 250ms ease;
   &:hover {
-    background-color: #2ecc40;
+    background-color: ${coolGray[10]};
   }
   svg {
     fill: white;

@@ -26,7 +26,7 @@ const Projects = ({ user }) => {
                  <ImgContainer key={i}>
                     <ImgItem>
                       <a href={project.website} target='#'>
-                        <img src={img.resolutions.mobile.url} height={img.resolutions.mobile.height} width={img.resolutions.mobile.width} alt={project.displayName}/>
+                        <img src={img.resolutions.thumbnail.url} height={img.resolutions.thumbnail.height} width={img.resolutions.thumbnail.width} alt={project.displayName}/>
                       </a>
                     </ImgItem>
                   </ImgContainer>

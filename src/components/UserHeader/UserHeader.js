@@ -3,7 +3,8 @@ import { useLocation } from 'react-router-dom';
 import { ArrowRight16 } from '@carbon/icons-react';
 
 
-import { HeaderContainer, Header, Image, ViewResumeLink } from './styles';
+
+import { HeaderContainer, Header, Image, ViewResumeLink, LinksContainer } from './styles';
 
 const UserHeader = ({ user }) => {
   const location = useLocation();
@@ -26,6 +27,7 @@ const UserHeader = ({ user }) => {
           <p>Coding in {user.basics.region}</p>
           <p>{user.basics.yearsOfExperience} year of experience as a developer</p>
           <p><strong>{user.basics.headline}</strong></p>
+          <LinksContainer>
           <p>
             Email:{' '}
             <a href={'mailto: '+ user.basics.email} target="_blank"rel="noopener noreferrer" >
@@ -39,11 +41,12 @@ const UserHeader = ({ user }) => {
               </a>
             </p>
           ))}
+          </LinksContainer>
         </div>
       </Header>
       <div>
         <ViewResumeLink
-          href={`https://gitconnected.com/${user.basics.username}/resume`}
+          href={`https://travisguillory.github.io/Portfolio/assets/Resume%20of%20Travis%20Guillory.pdf`}
           target="_blank"
           rel="noopener noreferrer"
         >
