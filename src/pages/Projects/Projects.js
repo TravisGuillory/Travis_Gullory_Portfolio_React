@@ -31,8 +31,7 @@ const Projects = ({ user }) => {
                     </ImgItem>
                   </ImgContainer>
                 ))}
-                
-</ProjectItem>
+                </ProjectItem>
             ))}
           </ul>
           
